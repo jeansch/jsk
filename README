@@ -1,5 +1,0 @@
-## Install files here:
-
-# sudo cp jsk.xml /usr/share/X11/xkb/rules/jsk.xml
-# sudo cp jsk /usr/share/X11/xkb/symbols/jsk
-
