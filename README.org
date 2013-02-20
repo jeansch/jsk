@@ -1,56 +1,55 @@
-# #+TITLE: jsk
-# 
-# This my personal keyboard layout.
-# 
-# It's mostly a US keyboard but with easy accentuated characters and some
-# ideas from the colemak layout.
-# 
-# * Accentuated (and special) characters
-# 
-#   | Alt-A | À | Alt-a | à |
-#   | Alt-E | É | Alt-E | é |
-#   | Alt-I | Ï | Alt-I | ï |
-#   | Alt-U | Ù | Alt-U | ù |
-#   | Alt-Y | Ü | Alt-y | ü |
-#   | Alt-O | Ö | Alt-O | ö |
-#   | Alt-: | Ó | Alt-; | ó |
-#   | Alt=" | Õ | Alt-' | õ |
-#   | Alt-V | Œ | Alt-v | œ |
-#   | Alt-C | Ç | Alt-c | ç |
-#   | Alt-N | Ñ | Alt-n | ñ |
-#   | Alt-Z | Æ | Alt-z | æ |
-#   | Alt-L | Ł | Alt-l | ł |
-#   |       |   | Alt-/ | ¿ |
-# 
-#   | Alt-1 | ¡ | Alt-Shift-1 | ¹ |
-#   | Alt-2 | º | Alt-Shift-2 | ² |
-#   | Alt-3 | ª | Alt-Shift-3 | ³ |
-#   | Alt-4 | ¢ | Alt-Shift-4 | £ |
-#   | Alt-5 | € | Alt-Shift-5 | ¥ |
-#   | Alt-6 | ħ | Alt-Shift-6 | Ħ |
-#   | Alt-7 | ð | Alt-Shift-7 | Ð |
-#   | Alt-8 | þ | Alt-Shift-8 | Þ |
-#   | Alt-9 | ‘ | Alt-Shift-9 | “ |
-#   | Alt-0 | ’ | Alt-Shift-0 | ” |
-#   | Alt-- | – | Alt-Shift-- | — |
-#   | Alt-= | × | Alt-Shift-= | ÷ |
-# 
-#   | Alt-x [letter] | ^ over the letter  | ÂÊÎÔÛ | âêîôû |
-#   | Alt-g [letter] | " over the letter  | ÄËÏÖÜ | äëïöü |
-#   | Alt-s [letter] | ` over the letter  | ÀÈÌÒÙ | àèìòù |
-#   | Alt-f [letter] | ' over the letter  | ÁÉÍÓÚ | áéíóú |
-#   | Alt-h [letter] | ˇ over the letter  | ǍĚǏǑǓ | ǎěǐǒǔ |
-#   | Alt-b [letter] | ˘ over the letter  | ĂĔĬŎŬ | ăĕĭŏŭ |
-#   | Alt-. [letter] | ˙ over the letter  | ȦĖİȮ  | ȧėıȯ  |
-#   | Alt-, [letter] | ¸ under the letter | ÇȨ    | çȩ    |
-#   | Alt-k [letter] | ° over the letter  | ÅŮ    | åůẘẙ  |
-# 
-# * Special keys
-# 
-#   - Capslock act as Delete
-# 
-# * Installation on Xorg.
-# 
-#   sudo cp jsk.xml /usr/share/X11/xkb/rules/jsk.xml
-#   sudo cp jsk /usr/share/X11/xkb/symbols/jsk
+#+TITLE: jsk
 
+This my personal keyboard layout.
+
+It's mostly a US keyboard but with easy accentuated characters and some
+ideas from the colemak layout.
+
+* Accentuated (and special) characters
+
+  | Alt-A | À | Alt-a | à |
+  | Alt-E | É | Alt-E | é |
+  | Alt-I | Ï | Alt-I | ï |
+  | Alt-U | Ù | Alt-U | ù |
+  | Alt-Y | Ü | Alt-y | ü |
+  | Alt-O | Ö | Alt-O | ö |
+  | Alt-: | Ó | Alt-; | ó |
+  | Alt=" | Õ | Alt-' | õ |
+  | Alt-V | Œ | Alt-v | œ |
+  | Alt-C | Ç | Alt-c | ç |
+  | Alt-N | Ñ | Alt-n | ñ |
+  | Alt-Z | Æ | Alt-z | æ |
+  | Alt-L | Ł | Alt-l | ł |
+  |       |   | Alt-/ | ¿ |
+
+  | Alt-1 | ¡ | Alt-Shift-1 | ¹ |
+  | Alt-2 | º | Alt-Shift-2 | ² |
+  | Alt-3 | ª | Alt-Shift-3 | ³ |
+  | Alt-4 | ¢ | Alt-Shift-4 | £ |
+  | Alt-5 | € | Alt-Shift-5 | ¥ |
+  | Alt-6 | ħ | Alt-Shift-6 | Ħ |
+  | Alt-7 | ð | Alt-Shift-7 | Ð |
+  | Alt-8 | þ | Alt-Shift-8 | Þ |
+  | Alt-9 | ‘ | Alt-Shift-9 | “ |
+  | Alt-0 | ’ | Alt-Shift-0 | ” |
+  | Alt-- | – | Alt-Shift-- | — |
+  | Alt-= | × | Alt-Shift-= | ÷ |
+
+  | Alt-x [letter] | ^ over the letter  | ÂÊÎÔÛ | âêîôû |
+  | Alt-g [letter] | " over the letter  | ÄËÏÖÜ | äëïöü |
+  | Alt-s [letter] | ` over the letter  | ÀÈÌÒÙ | àèìòù |
+  | Alt-f [letter] | ' over the letter  | ÁÉÍÓÚ | áéíóú |
+  | Alt-h [letter] | ˇ over the letter  | ǍĚǏǑǓ | ǎěǐǒǔ |
+  | Alt-b [letter] | ˘ over the letter  | ĂĔĬŎŬ | ăĕĭŏŭ |
+  | Alt-. [letter] | ˙ over the letter  | ȦĖİȮ  | ȧėıȯ  |
+  | Alt-, [letter] | ¸ under the letter | ÇȨ    | çȩ    |
+  | Alt-k [letter] | ° over the letter  | ÅŮ    | åůẘẙ  |
+
+* Special keys
+
+  - Capslock act as Delete
+
+* Installation on Xorg.
+
+  sudo cp jsk.xml /usr/share/X11/xkb/rules/jsk.xml
+  sudo cp jsk /usr/share/X11/xkb/symbols/jsk
