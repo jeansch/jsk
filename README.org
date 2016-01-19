@@ -51,5 +51,9 @@ ideas from the colemak layout.
 
 * Installation on Xorg.
 
-  sudo cp jsk.xml /usr/share/X11/xkb/rules/jsk.xml
-  sudo cp jsk /usr/share/X11/xkb/symbols/jsk
+  - sudo cp jsk.xml /usr/share/X11/xkb/rules/jsk.xml
+  - sudo cp jsk /usr/share/X11/xkb/symbols/jsk
+
+* Usage
+
+  - setxkbmap jsk
